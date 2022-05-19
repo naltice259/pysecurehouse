@@ -1,0 +1,15 @@
+Name: Nicholas Altice
+ASU ID: 1209434652
+
+Description: This program first takes a line of input then splits and stores the seperate words in a list. The program then checks
+the first two elements of the list to find out what action to take.
+If it is INSERT KEY then the username and the key inserted will be stored.
+If it is TURN KEY the inserted key will be checked against the authorized keys and if there is a match and the key turner is the same
+as the key inserter then the door will be unlocked.
+If it is ENTER HOUSE, the enterer is the same as the inserter and the turner, and the door is unlocked the enterer will be added to a
+list of people inside the house and the door will be relocked.
+If it is WHO'S INSIDE the program will print out the list of people inside the house or NOBODY HOME if the list is empty.
+If it is LEAVE HOUSE the program will remove the person from the list or print <username> NOT HERE if they are not inside the house.
+If it is CHANGE LOCKS, the lock changer is the owner, and the owner is inside the house the list of authorized keys will be changed to
+the new keys.
+Any other input will print out ERROR.
